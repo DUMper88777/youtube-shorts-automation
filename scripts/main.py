@@ -5,7 +5,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from google.auth.transport.requests import Request
 
-# Environment variables (will be set in GitHub Secrets)
+# Environment variables (set in GitHub Secrets)
 CLIENT_ID = os.environ['GDRIVE_CLIENT_ID']
 CLIENT_SECRET = os.environ['GDRIVE_CLIENT_SECRET']
 REFRESH_TOKEN = os.environ['GDRIVE_REFRESH_TOKEN']
